@@ -7,6 +7,16 @@ body {
 
 img {
     border-radius: var(--radius-3);
+    max-height: 500px;
+    width: fit-content;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 .main-header{
@@ -90,4 +100,37 @@ nav h1 {
 
 .nav-recipes:link, :visited {
     color: var(--blue-9);
+}
+
+.recipe-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.recipe-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description {
+    float:right;
+    width: 50%;
+}
+
+.ingredients, .directions {
+    margin: 10px 7%;
+    width: 60%;
+}
+
+.ingredients ul li {
+    font-size: 20px;
+}
+
+.directions ol li {
+    font-size: 20px;
 }
