@@ -1,0 +1,55 @@
+@import "https://unpkg.com/open-props";
+
+body {
+    background-color: white;
+    font-family: var(--font-sans)
+}
+
+.home {
+    background: var(--gradient-1);
+}
+
+.main-header{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 80px;
+    background: var(--gradient-1);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.recipes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.recipes-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.recipes-list li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.recipes-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 700px;
+    margin: 25px;
+    text-decoration: none;
+    font-size: var(--font-size-fluid-1);
+    box-shadow: var(--shadow-4);
+    border-radius: 7px;
+}
+
